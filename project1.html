@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> First project </title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lec_1.CSS">
+<style>
+    /* CSS reset */
+    body{
+        color: floralwhite;
+        margin: 0px;
+        padding: 0px;
+        background: url('pexels-bemistermister-3490348.jpg');
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        font-family: "Baskervville SC", serif;
+        /* background-repeat: repeat-y; */
+    }
+    .left{
+        /* border: 3px solid green; */
+        display: inline-block;
+        position: absolute;
+        left: 19px;
+        top: 13px;
+        text-align: center;
+    }
+    .left img{
+        width: 116px;
+        filter: invert(100%);
+        
+       
+    }
+    .mid{
+     display: block;   
+     width: 60%;
+     margin: 13px auto;
+     /* border: 3px solid red; */
+
+    }
+    .right{
+        position: absolute;
+        right: 12px;
+        top: 16px;
+       display: inline-block;
+       /* border: 3px solid hotpink; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 18px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 25px 13px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: red;
+    }
+    .btn{
+        margin: 0px 6px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(130, 127, 127);
+    }
+    .container{
+        /* border: 2px solid white; */
+        margin: 104px 60px;
+        padding: 65px;
+        width: 30%;
+        border-radius: 13px;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 86%;
+        margin: 20px;
+        border-radius: 31px;
+    }
+    .form-group input{
+         text-align: center;  
+         display: block;      
+        width: 240px;
+         padding: 8px;
+         border-radius: 23px;
+          font-size: 17px;
+         border: 2px solid floralwhite;
+         margin: 3px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+         <div class="left">
+          <img src="https://th.bing.com/th/id/OIP.KbNpu5zr8c-lpbWHe5884AHaFC?w=268&h=183&c=7&r=0&o=5&dpr=1.6&pid=1.7" alt="">
+          <div>Gautam Fitness</div>
+         </div>
+         <!-- mid box for navbar -->
+         <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+                
+            </ul>
+         </div>
+          <!-- right box for buttons -->
+           <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+           </div>
+    </header>
+  <div class="container">
+    <H2>Join the best gym of ranchi now</H2>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class=".btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
