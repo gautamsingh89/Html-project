@@ -1,0 +1,23 @@
+div{
+    height: 500px;
+    width: 800px;
+    background-color: aqua;
+    /* background-image: radial-gradient(circle,green 20px,blue 40px,pink); */
+    /* background-image:linear-gradient() */
+    /* background-image:repeating-linear-gradient() */
+    /* background-image:repeating-radial;-gradient() */
+    
+    background-image: url("https://th.bing.com/th/id/OIP.tLotgCDtzgTdwJcTiXWRCwHaEK?rs=1&pid=ImgDetMain");
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    /* background-position:top ; */
+
+    /* background-clip: text; */
+    /* border have total 8 types */
+    border:20px solid green
+}
+p{
+    font-size: 60px;
+    font-weight: bolder;
+    color: transparent;
+}
